@@ -1,0 +1,26 @@
+﻿@model Cooking.Models.ResturantDto
+
+@{
+    ViewBag.Title = "test";
+}
+
+<h2>test</h2>
+
+<div>
+    <h4>ResturantDto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
