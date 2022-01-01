@@ -38,7 +38,7 @@ namespace Cooking.Controllers
 
             ViewBag.Message = "Your contact page.";
 
-            return ViewBag();
+            return View();
 
         }
 
